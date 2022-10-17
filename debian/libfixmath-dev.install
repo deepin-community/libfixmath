@@ -1,0 +1,3 @@
+obj-*/liblibfixmath.a /usr/lib/${DEB_HOST_MULTIARCH}
+libfixmath/*.h /usr/include/libfixmath
+libfixmath/*.hpp /usr/include/libfixmath

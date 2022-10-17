@@ -1,0 +1,19 @@
+Source: libfixmath
+Priority: optional
+Maintainer: Rene Engelhard <rene@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake
+Standards-Version: 4.5.1
+Section: libs
+Homepage: https://github.com/PetteriAimonen/libfixmath
+Vcs-Browser: https://salsa.debian.org/debian/libfixmath
+Vcs-Git: https://salsa.debian.org/debian/libfixmath.git
+Rules-Requires-Root: no
+
+Package: libfixmath-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}
+Description: Cross Platform Fixed Point Maths Library
+ Libfixmath implements Q16.16 format fixed point operations in C
+

@@ -1,0 +1,21 @@
+libfixmath (0~20220222-3) unstable; urgency=medium
+
+  * add-Vcs-Browser:/Git:
+  * upload to unstable
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 03 Apr 2022 14:54:37 +0000
+
+libfixmath (0~20220222-2) experimental; urgency=medium
+
+  * fix Upstream-Contact:
+  * don't build the tests on architectures where we don't have -lubsan
+  * don't install the test .as, only liblibfixmath.a itself
+  * link the tests with -latomic 
+
+ -- Rene Engelhard <rene@debian.org>  Wed, 23 Mar 2022 19:16:05 +0000
+
+libfixmath (0~20220222-1) experimental; urgency=medium
+
+  * Initial release
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 20 Mar 2022 10:33:18 +0000
